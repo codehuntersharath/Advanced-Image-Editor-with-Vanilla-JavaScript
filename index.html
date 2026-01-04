@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Image Editor - By Sharathchandar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Advanced Image Editor</h1>
+
+      <input type="file" id="upload" accept="image/*" />
+      <canvas id="canvas"></canvas>
+
+      <div class="controls">
+        <div class="subControl">
+          <h3>Filters</h3>
+          <label>Brightness</label>
+          <input type="range" id="brightness" min="0" max="200" value="100" />
+
+          <label>Contrast</label>
+          <input type="range" id="contrast" min="0" max="200" value="100" />
+
+          <label>Saturation</label>
+          <input type="range" id="saturation" min="0" max="200" value="100" />
+        </div>
+
+        <div class="subControl">
+          <h3>Crop</h3>
+          <button id="crop-btn">Start Crop</button>
+          <button id="apply-crop-btn">Apply Crop</button>
+
+          <button id="flip-horizontal">Flip Horizontal</button>
+          <button id="flip-vertical">Flip Vertical</button>
+        </div>
+
+        <div class="subControl">
+          <h3>Transformations</h3>
+          <label>Rotate</label>
+          <input type="range" id="rotate" min="0" max="360" value="0" />
+
+          <label>Scale</label>
+          <input type="range" id="scale" min="50" max="150" value="100" />
+        </div>
+      </div>
+
+      <!-- <button id="reset-btn">Reset Edited Image</button> -->
+      <button id="download-btn">Download Edited Image</button>
+    </div>
+  </body>
+</html>
