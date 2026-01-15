@@ -31,6 +31,24 @@ This project demonstrates real-world usage of the **Canvas API** with advanced i
 
 ---
 
+## 🌐 Live Demo
+<p align="center">
+  <a href="https://codehuntersharath.github.io/Advanced-Image-Editor-with-Vanilla-JavaScript">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-blue" />
+  </a>
+  <a href="https://youtu.be/3etLS59f2Oo">
+    <img src="https://img.shields.io/badge/🎥%20YouTube-Tutorial-red" />
+  </a>
+  <a href="https://github.com/codehuntersharath/Advanced-Image-Editor-with-Vanilla-JavaScript/stargazers">
+    <img src="https://img.shields.io/badge/⭐%20Star-Repo-yellow" />
+  </a>
+</p>
+
+🚀 Try the application live here:  
+👉 **https://codehuntersharath.github.io/Advanced-Image-Editor-with-Vanilla-JavaScript/**
+
+---
+
 ## 🎥 Full Video Tutorial
 Learn how this project is built step-by-step on YouTube:  
 
@@ -155,3 +173,4 @@ This project is created for **educational purposes**.
 ---
 
 **Built with ❤️ by Sharathchandar K**
+
